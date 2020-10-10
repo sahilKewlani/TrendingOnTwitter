@@ -7,12 +7,6 @@ access_token = "XXXXX"
 access_token_secret = "XXXXX"
 
 
-# access_token = "873881805119672322-kwWJeoffxEAiWNbwMnqOpP9uODLCr6T"
-# access_token_secret = "mw7O66clhLADSgWfJeud22rBSYLN5tfcSfXrpivJcfkCq"
-# consumer_key = "as1VRfqFjInsrx6uSuweettWy"
-# consumer_secret = "UK60ZYwV89zoP9ajknnhGrN7eYhOWPzGS2NeGXUP9SJNPt7r46"
-
-
 def start_tweets_api():
     listener = TweetListener()
     auth = OAuthHandler(consumer_key, consumer_secret)
